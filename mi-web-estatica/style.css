@@ -1,0 +1,60 @@
+/* Estilos básicos para la página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #3498db; /* Un color azul para la cabecera */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Estilos para las fotos */
+.galeria {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap; /* Permite que las fotos se ajusten en pantallas pequeñas */
+    justify-content: center;
+}
+
+.galeria img {
+    width: 100%;
+    max-width: 300px; /* Tamaño máximo para cada foto */
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: fixed; /* Lo fija en la parte inferior si el contenido es corto */
+    bottom: 0;
+    width: 100%;
+}
